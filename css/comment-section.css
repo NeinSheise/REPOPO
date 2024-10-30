@@ -1,0 +1,70 @@
+.comment-section {
+    background-color: #f9f9f9; /* Light background for the comment section */
+    border: 1px solid #ccc; /* Light border for the section */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding around the section */
+    margin: 20px 0; /* Margin for spacing */
+}
+
+.comment-section h2 {
+    font-size: 1.5rem; /* Font size for the heading */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+.comment-section form {
+    display: flex; /* Use flexbox for form layout */
+    flex-direction: column; /* Stack items vertically */
+}
+
+.comment-section label {
+    margin-bottom: 5px; /* Space below the label */
+    font-weight: bold;  /* Bold text for labels */
+}
+
+.comment-section input[type="text"],
+.comment-section textarea {
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px; /* Padding inside inputs */
+    margin-bottom: 15px; /* Space below each input */
+    font-size: 1rem; /* Font size */
+    width: 100%; /* Full width for input and textarea */
+    box-sizing: border-box; /* Includes padding in width calculation */
+    resize: vertical; /* Allows vertical resizing for textarea */
+}
+
+.comment-section button {
+    background-color: #333; /* Button background color */
+    color: white; /* Button text color */
+    border: none; 
+    border-radius: 4px; 
+    padding: 10px; 
+    cursor: pointer; 
+    font-size: 1rem; 
+}
+
+.comment-section button:hover {
+    background-color: #45a049;
+}
+
+.comments-display {
+    margin-top: 20px; 
+}
+
+.comments-display h3 {
+    font-size: 1.2rem; 
+    margin-bottom: 10px; 
+}
+
+#commentsList {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+#commentsList li {
+    background-color: #fff;
+    border: 1px solid #ddd; 
+    border-radius: 4px;
+    padding: 10px; 
+    margin-bottom: 10px;
+}
